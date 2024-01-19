@@ -2,10 +2,12 @@
     font-family: sans-serif;
     scrollbar-width: thin!important;
 }
+.container{
+    overflow-x: hidden;
+}
 body {
     background-color: #24292e;
-
-
+  overflow-x:hidden ;
 }
 .sectionContainerCode{
     width: 100%;
@@ -32,7 +34,10 @@ border-radius: 0px  0px  70% 0px;
     font-size: 25px;
     height: 100vh;
 }
-
+.conatinerText{
+    opacity: 0;
+    transition: 1s;
+}
 .infoWelcome {
 
     width: 100%;
@@ -58,15 +63,17 @@ color: white;
 }
 .containerTxtCode{
     text-align: left;
+opacity: 0;
+transition: 1s;
 }
 .infoCode{
     padding: 20px;
 font-size: 25px;
-
 }
 .codeExplication{
 font-size: 15px;
 color: grey;
+opacity: 0;
 }
 .searchInfo{
     position: relative;
@@ -103,4 +110,16 @@ border-radius: 70% 0px 0px 0px;
     color: white;
     margin: 50px;
     padding: 20px;
+    opacity: 0;
+    transition:1s;
+}
+.txt {
+    transition: 0.5s;
+    transform: translateY(150px);
+
+}
+.gifs{
+    transition: 0.5s;   
+    transform: translateY(-130px);
+    border-radius: 20px;
 }
