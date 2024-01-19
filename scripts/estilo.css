@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+    scrollbar-width: thin!important;
+}
+body {
+    background-color: #24292e;
+
+
+}
+.sectionContainerCode{
+    width: 100%;
+    height: 100vh;
+    background-color: #263e46;
+border-radius: 0px  0px  70% 0px;
+
+  padding: 0;
+  margin: 0;
+}
+.containerWelcome {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    padding: 10px;
+    width: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    height: 100vh;
+}
+
+.infoWelcome {
+
+    width: 100%;
+}
+
+.sectionCode{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+background-color: #24292e;
+
+}
+
+.containerCode {
+position: absolute;
+right: 10%;
+top: 50%;
+transform: translate(10%,-50%);
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.containerTxtCode{
+    text-align: left;
+}
+.infoCode{
+    padding: 20px;
+font-size: 25px;
+
+}
+.codeExplication{
+font-size: 15px;
+color: grey;
+}
+.searchInfo{
+    position: relative;
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(to right top, #3d0e71, #41238e, #4036ac, #364acb, #125eeb);
+border-radius: 70% 0px 0px 0px;
+
+}
+.searchInfo img {
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255, rgb(255, 255, 255), rgb(255, 255, 255), 0.8) ;
+}
+.containerSearch{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-30%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchInfoExplication {
+    font-size: 15px;
+    padding: 20px;
+    text-align: right;
+}
+.containerTxtSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    margin: 50px;
+    padding: 20px;
+}
