@@ -4,6 +4,12 @@
 }
 .container{
     overflow-x: hidden;
+  min-height: 422px;
+
+}
+section {
+  min-height: 522px;
+
 }
 body {
     background-color: #24292e;
@@ -77,15 +83,16 @@ opacity: 0;
 }
 .searchInfo{
     position: relative;
-    height: 100vh;
+    height:100vh;
     width: auto;
     background-image: linear-gradient(to right top, #3d0e71, #41238e, #4036ac, #364acb, #125eeb);
 border-radius: 70% 0px 0px 0px;
-
+padding: 30px;
 }
 .searchInfo img {
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(255, rgb(255, 255, 255), rgb(255, 255, 255), 0.8) ;
+
 }
 .containerSearch{
     position: absolute;
@@ -123,6 +130,12 @@ border-radius: 70% 0px 0px 0px;
     border-radius: 20px;
 }
 @media only screen and (max-width : 720px) {
+    .searchInfo img {
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(255, rgb(255, 255, 255), rgb(255, 255, 255), 0.8) ;
+        width: 50%;
+        margin-bottom: 30px;
+    }
     .allcontainersOfsections{
         flex-direction: column;
         width: 100%;
