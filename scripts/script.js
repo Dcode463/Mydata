@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', () => {
+    window.scrollTo(0, 0);
+    const container = document.getElementById('containerMax');
 const elementsHTML = {
 
     sectionWelcome  : {
@@ -11,6 +14,7 @@ const elementsHTML = {
     }
 }
 
+container.scrollTo(0,0);
 
 const observadorFunction = e => { 
 const textContainer = e[0].target.firstElementChild.firstElementChild;
@@ -33,4 +37,5 @@ const observar = new IntersectionObserver(observadorFunction, { threshold: 0.5 }
 let matriz = Object.keys(elementsHTML);
 matriz.forEach(e => {
     observar.observe(elementsHTML[e].element)
+})
 })
