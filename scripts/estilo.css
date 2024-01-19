@@ -128,4 +128,7 @@ border-radius: 70% 0px 0px 0px;
         width: 100%;
         text-align: left;
     }
+section {
+    border-radius: 0!important;
+}
 }
