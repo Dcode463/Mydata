@@ -12,7 +12,7 @@ section {
 
 }
 body {
-    background-color: #24292e;
+    background-color: #e5e7eb;
   overflow-x:hidden ;
 }
 .sectionContainerCode{
@@ -40,6 +40,7 @@ border-radius: 0px  0px  70% 0px;
     font-size: 25px;
     height: 100vh;
 }
+
 .conatinerText{
     opacity: 0;
     transition: 1s;
@@ -53,7 +54,7 @@ border-radius: 0px  0px  70% 0px;
     position: relative;
     width: 100%;
     height: 100vh;
-background-color: #24292e;
+background-color: #e5e7eb;
 
 }
 
@@ -65,7 +66,10 @@ transform: translate(10%,-50%);
 display: flex;
 justify-content: center;
 align-items: center;
-color: white;
+color: black;
+}
+.containerCode img {
+    width: 50%;
 }
 .containerTxtCode{
     text-align: left;
