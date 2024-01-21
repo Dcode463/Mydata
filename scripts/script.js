@@ -11,6 +11,9 @@ const elementsHTML = {
     },
     sectionSearch : {
         element : document.getElementById('sectionTree')
+    },
+    sectionIndexedDB : {
+        element : document.getElementById('sectionContainerIndexedDB')
     }
 }
 
@@ -36,6 +39,7 @@ const observar = new IntersectionObserver(observadorFunction, { threshold: 0.5 }
 
 let matriz = Object.keys(elementsHTML);
 matriz.forEach(e => {
+    console.log(e)
     observar.observe(elementsHTML[e].element)
 })
 })
